@@ -12,8 +12,8 @@ const SearchBar = ({userData,setUserData}) => {
 
   return (
     <div>
-      <form action="" className='my-4 text-center border-2 mx-auto w-64'>
-      <input type="text" placeholder='Search your product' onChange={handleFilter()} className='border-black w-full py-1 px-2'/>
+      <form action="" className='my-4 text-center border-2 mx-auto md:w-52 '>
+      <input type="text" placeholder='Search your product' onChange={handleFilter()} className='border-black w-full py-1 px-2 rounded-md'/>
     </form>
     </div>
   )
